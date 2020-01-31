@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_menu_arcore"
+            android:icon="@drawable/arcore"
+            android:title="@string/arcore"
+            android:contentDescription="Se holdeplasser i nærheten av deg ved å peke med kameraet ditt"
+            android:tooltipText="Se holdeplasser i nærheten av deg ved å peke med kameraet ditt"/>
+        <item
+            android:id="@+id/nav_menu_kart"
+            android:icon="@drawable/dot"
+            android:title="@string/map"
+            android:contentDescription="Se alle holdeplassene på kartet"
+            android:tooltipText="Se alle holdeplassene på kartet"/>
+    </group>
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5px"
+    android:layout_marginEnd="5px"
+    android:layout_marginStart="5px"
+    android:layout_marginTop="5px"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_background">
+
+        <TextView
+            android:id="@+id/txt_Name"
+            style="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="8dp"
+            android:paddingTop="18dp"
+            android:textColor="@color/black"
+            tools:text="Title 1" />
+
+        <TextView
+            android:id="@+id/txt_Description"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt_Name"
+            android:layout_marginStart="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            tools:text="Favorittholdeplass" />
+
+        <ImageView
+            android:id="@+id/overflow"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_delete" />
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/holo_orange_light" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item android:drawable="@drawable/circle"/>
+    <!--<item android:drawable="@drawable/ic_ar_bus"/>-->
+    <item>
+        <inset android:drawable="@drawable/ic_ar_bus"
+            android:insetRight="50dp"
+            android:insetTop="50dp"
+            android:insetLeft="50dp"
+            android:insetBottom="50dp" />
+    </item>
+
+</layer-list>

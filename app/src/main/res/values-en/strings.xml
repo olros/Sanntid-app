@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Realtime</string>
+    <string name="action_search">Search</string>
+    <string name="action_status">Status</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Refresh</string>
+    <string name="action_map">Show in map</string>
+    <string name="snackbar_permission_explanation">Sort the stops based on distance from your position?</string>
+    <string name="dialog_permission_title">Location permission</string>
+    <string name="dialog_permission_explanation">Press \"allow\" to give us permission to see your location. We only use it to show the distance between you and stops, and automaticly sort the list af stops based on distance.</string>
+    <string name="permission_explanation_action">Yes!</string>
+    <string name="title_location_denied">I\'m sorry to hear that</string>
+    <string name="text_location_denied">If you change your mind, you can just open the app again and press \"allow\" next time.</string>
+    <string name="refresh_finished">Refreshed</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="give_location_to_sort">Give location permission to sort the list based on your position</string>
+    <string name="loading_stopplaces">Loading stops&#8230;</string>
+    <string name="sure_you_want_to_remove">"Sure you want to remove "</string>
+    <string name="from_your_favourites">" from your favourites?"</string>
+    <string name="delete_favourite">Delete favourite</string>
+    <string name="favourite_was_deleted">The favourite was deleted</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_mainactivity">Stops</string>
+    <string name="map">Map</string>
+    <string name="arcore">ARCore</string>
+    <string name="plane_finding">Searching for surfaces&#8230;</string>
+    <string name="unknown_distance">Unknown distance</string>
+    <string name="see_departures">Se departures</string>
+    <string name="camera_permission_needed">Camera permission is necessary to see your closest stops</string>
+    <string name="was_added">" was added as favouritestop"</string>
+    <string name="was_removed">" was removed from your favourites"</string>
+    <string name="see_favourites">See favourites</string>
+    <string name="home">Home</string>
+    <string name="favourite_stopplace">Favouritestop</string>
+    <string name="click_to_see_departures">Click to see departures</string>
+    <string name="from">From</string>
+    <string name="search_for_stops">Search for stops</string>
+    <string name="favourites">Favourites</string>
+    <string name="departures">Departures</string>
+    <string name="favourites_equal">Favourites:</string>
+    <string name="closest_stops">Closest stops</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="4dp"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background">
+
+    <RelativeLayout
+        android:id="@+id/widgetTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="0dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_gravity="top">
+
+        <TextView
+            android:id="@+id/id_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holdeplass"
+            android:textSize="25dp"
+            android:textColor="#111"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"/>
+
+        <ImageView
+            android:id="@+id/update"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:padding="3dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_refresh_black"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/widgetTopbarLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#ddd"/>
+
+    <ListView
+        android:id="@+id/widgetList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+    <ImageView
+        android:id="@+id/widgetBottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#ddd"/>
+
+    <TextView
+        android:id="@+id/update_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="3dp"
+        android:text="Sist oppdatert: 18:54"
+        android:textColor="#111"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

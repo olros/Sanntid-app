@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sanntid</string>
+
+    <string name="action_search">Søk</string>
+    <string name="action_status">Status</string>
+    <string name="action_settings">Innstillinger</string>
+    <string name="action_update">Oppdater</string>
+    <string name="action_map">Vis i kart</string>
+    <string name="snackbar_permission_explanation">Sorter holdeplassene basert på avstand fra deg?</string>
+    <string name="dialog_permission_title">Posisjonstillatelse</string>
+    <string name="dialog_permission_explanation">Trykk \"tillat\" for å gi oss tillatelse til å se din posisjon. Vi bruker den kun for å vise avstand mellom deg og holdeplasser, samt å automatisk sortere listen slik at holdeplassene nærmest deg er øverst. All posisjonsdata behandles lokalt på denne enheten.</string>
+    <string name="permission_explanation_action">Ja!</string>
+    <string name="title_location_denied">Det var synd</string>
+    <string name="text_location_denied">Det var synd. Hvis du ombestemmer deg kan du bare åpne appen på nytt og trykke \"tillat\" neste gang.</string>
+    <string name="refresh_finished">Oppdatert</string>
+    <string name="something_went_wrong">Noe gikk galt</string>
+    <string name="give_location_to_sort">Gi posisjonstillatelse for å sortere listen basert på din posisjon</string>
+    <string name="loading_stopplaces">Laster holdeplasser&#8230;</string>
+    <string name="sure_you_want_to_remove">Sikker på at du vil fjerne </string>
+    <string name="from_your_favourites"> fra dine favoritter?</string>
+    <string name="delete_favourite">Slett favoritt</string>
+    <string name="favourite_was_deleted">Favoritten ble fjernet</string>
+    <string name="departures">Avganger</string>
+    <string name="favourites">Favoritter</string>
+    <string name="favourites_equal">Favoritter:</string>
+    <string name="search_for_stops">Søk etter stoppested</string>
+    <string name="from">Fra</string>
+    <string name="closest_stops">Nærmeste holdeplasser</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Avbryt</string>
+
+    <string name="text_mainactivity">Holdeplasser</string>
+    <string name="map">Kart</string>
+    <string name="arcore">ARCore</string>
+
+    <!-- Sceneform -->
+    <string name="plane_finding">Leter etter overflater&#8230;</string>
+    <string name="unknown_distance">Ukjent avstand</string>
+    <string name="see_departures">Se avganger</string>
+    <string name="camera_permission_needed">Kameratillatelse er nødvendig for se dine nærmeste holdeplasser</string>
+
+    <!-- Busactivity -->
+    <string name="was_added"> ble lagt til som favorittholdeplass</string>
+    <string name="was_removed"> ble fjernet fra dine favorittholdeplasser</string>
+    <string name="see_favourites">Se favoritter</string>
+    <string name="home">Hjem</string>
+    <string name="favourite_stopplace">Favorittholdeplass</string>
+
+    <!-- Mapactivity -->
+    <string name="click_to_see_departures">Klikk for å se avganger</string>
+</resources>

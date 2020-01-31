@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/horizontalCardView"
+    android:layout_width="wrap_content"
+    android:minWidth="140dp"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="0dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:src="#007849"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/horizontalLayoutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:elevation="6dp"
+        android:background="@drawable/rounded_horizontal_background"
+        android:foreground="?attr/selectableItemBackground">
+
+        <com.google.android.material.circularreveal.CircularRevealFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/horizontalImageView"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center|top"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star_border" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/horizontalTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingBottom="2dp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Rødhettes vei" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.circularreveal.CircularRevealFrameLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

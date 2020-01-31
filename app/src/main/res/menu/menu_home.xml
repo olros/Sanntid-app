@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:orderInCategory="0"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_search_icon"
+        app:showAsAction="always" />
+    <!--<item android:id="@+id/action_status"
+        android:orderInCategory="10"
+        android:title="@string/action_status"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:orderInCategory="11"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_update"
+        android:orderInCategory="9"
+        android:title="@string/action_update"
+        app:showAsAction="never"/>-->
+</menu>
